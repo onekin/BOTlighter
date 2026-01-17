@@ -1,3 +1,8 @@
+require('@babel/register')({
+  extensions: ['.js'],
+  ignore: [/node_modules/]
+})
+
 import requireDir from 'require-dir'
 
 // Check out the tasks directory
